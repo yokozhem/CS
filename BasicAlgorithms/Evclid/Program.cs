@@ -1,4 +1,4 @@
-﻿int a=75, b = 20;
+﻿int a=4857394, b = 48;
 int a1=a, b1=b;
 while(a!=b)
     {
