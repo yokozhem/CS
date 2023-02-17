@@ -2,7 +2,7 @@
 //Показать первые N чисел Фибоначчи. Принять первые числа равными 0 и 1. 
 //Использовать рекурсию.
 
-static void PrintFibonacci(int n)
+void PrintFibonacci(int n)
 {
     for (int i = 0; i < n; i++)
     {
@@ -10,7 +10,7 @@ static void PrintFibonacci(int n)
     }
 }
 
-static int Fibonacci(int n)
+int Fibonacci(int n)
 {
     if (n == 0)
     {
@@ -25,6 +25,6 @@ static int Fibonacci(int n)
         return Fibonacci(n - 1) + Fibonacci(n - 2);
     }
 }
-
-
-PrintFibonacci(6);
+System.Console.WriteLine("Сколько первых чисел Фибоначчи вам распечатать? ");
+int N=Convert.ToInt32(Console.ReadLine());
+PrintFibonacci(N);
