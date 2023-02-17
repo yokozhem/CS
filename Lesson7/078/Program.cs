@@ -25,6 +25,6 @@ int Fibonacci(int n)
         return Fibonacci(n - 1) + Fibonacci(n - 2);
     }
 }
-System.Console.WriteLine("Сколько первых чисел Фибоначчи вам распечатать? ");
+System.Console.WriteLine("Сколько первых чисел Фибоначчи вам распечатать?  ");
 int N=Convert.ToInt32(Console.ReadLine());
 PrintFibonacci(N);
